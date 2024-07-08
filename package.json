@@ -1,0 +1,16 @@
+{
+  "name": "WAT-admin-tools",
+  "version": "1.0.0",
+  "main": "converter.js",
+  "author": "Glenn Ye <lcm7063@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^5.5.6",
+    "dotenv": "^16.4.5",
+    "firebase": "^10.12.2"
+  },
+  "type": "module",
+  "scripts": {
+    "upload-list": "node converter.js"
+  }
+}
